@@ -9,6 +9,7 @@ import "aos/dist/aos.css";
 import ITRosterCover from "../assets/images/itroster.png";
 import odenThumbnail from "../assets/images/odenThumb.jpg";
 import sucessTrackThumbnail from "../assets/images/sucessTrackThumb.png";
+import fellasThumb from "../assets/images/fellas.png";
 
 
 const Projects = () => {
@@ -29,7 +30,7 @@ const Projects = () => {
           id: 1,
           img: placeholderImg,
           title: "BlueBag",
-          desc: "AAAAThis will be a brief description of the project that is being displayed. Kept just to one or two sentences",
+          desc: "A portal to organize your cash, create goals",
           cat: "web",
           link1: "www.google.com",
           link2: "www.google.com",
@@ -38,7 +39,7 @@ const Projects = () => {
           id: 2,
           img: placeholderImg,
           title: "NeoSass",
-          desc: "BBBBThis will be a brief description of the project that is being displayed. Kept just to one or two sentences",
+          desc: "Using AI to revolutionize automation for businesses. AIDR, and AI-Rep, our flagship products aim to help you automate the aspects of your business previously thought to be manual work.",
           cat: "web",
           link1: "www.google.com",
           link2: "www.google.com",
@@ -83,7 +84,7 @@ const Projects = () => {
       projects: [
         {
           id: 1,
-          img: placeholderImg,
+          img: fellasThumb,
           title: "Michigan State Accafellas",
           desc: "A summary of my works acting as the Web Master and Social Media Manager for the Michigan State Accafellas.",
           cat: "UX",

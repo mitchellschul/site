@@ -7,7 +7,7 @@ const ProjectCards = (props) => {
         Files
       </a>
       <a href={props.link1} className="underline underline-offset-2 hover:text-gray">
-        Live Demo
+        Demo
       </a>
     </div>
   );

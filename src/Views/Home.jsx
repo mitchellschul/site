@@ -6,7 +6,8 @@ import About from "../Components/About";
 import Projects from "../Components/Projects";
 import Contact from "../Components/Contact";
 import Footer from "../Components/Footer";
-import Construction from "../Components/Construction.jsx";
+// import Construction from "../Components/Construction.jsx";
+
 
 const Home = () => {
   return (
@@ -18,6 +19,7 @@ const Home = () => {
       <Projects />
       <Contact />
       <Footer />
+
     </div>
   );
 };
