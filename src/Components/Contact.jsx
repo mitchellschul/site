@@ -28,7 +28,7 @@ const Contact = () => {
 
 
   return (
-    <div id="contact-section" className=" relative mt-16">
+    <div id="contact-section" className=" relative md:mt-40">
       <section className="text-gray-700 body-font relative bg-accent-blue">
         < div className="container px-5 py-24 mx-auto" >
           <div className="flex flex-col text-center w-full mb-12">

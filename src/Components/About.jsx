@@ -12,7 +12,7 @@ import presentPic from "../assets/images/working.png";
 
 const About = () => {
   return (
-    <div id="about-section" className="mt-24 md:mt-48 flex flex-col w-full h-full relative ">
+    <div id="about-section" className="mt-24 md:mt-40 flex flex-col w-full h-full relative ">
       <div className="text-xl font-bold md:mx-52">
         {/* <div className="w-10 h-2 bg-accent-blue relative right-2 bottom-3 z-1"></div> */}
       </div>
