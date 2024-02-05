@@ -6,29 +6,6 @@ const NavBar = () => {
 
   const [nav, setNav] = useState(false);
 
-  const links = [
-    {
-      id: 1,
-      link: 'home'
-    },
-    {
-      id: 2,
-      link: 'about'
-    },
-    {
-      id: 3,
-      link: 'portfolio'
-    },
-    {
-      id: 4,
-      link: 'experience'
-    },
-    {
-      id: 5,
-      link: 'contact'
-    },
-  ]
-
   return (
     <div>
       <div className="hidden w-full lg:mx-auto max-w-screen-lg md:flex flex-row justify-between items-center  h-20 text-browngray">

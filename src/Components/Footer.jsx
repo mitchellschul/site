@@ -37,7 +37,7 @@ const Footer = () => {
             </a>
           ))}
         </div>
-        <div className="text-black mr-4">
+        <div className="text-white mr-4">
           &copy; {new Date().getFullYear()} Mitchell Schuldinger
         </div>
       </div>

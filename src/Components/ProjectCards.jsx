@@ -15,7 +15,7 @@ const ProjectCards = (props) => {
     html = (
       <div className="flex flex-row gap-4 mt-2">
         <a href={props.link1} className="underline underline-offset-2 hover:text-gray">
-          Design Files
+          Figma
         </a>
       </div>
     );

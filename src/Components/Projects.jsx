@@ -74,7 +74,7 @@ const Projects = () => {
           title: "Oden Classroom",
           desc: "To provide a reliable, user-friendly, and efficient coding platform tailored specifically for computer science courses.",
           cat: "UX",
-          link1: "https://www.figma.com/file/xQxSldEfPiW6T3klM8S1Y3/Odin-UI---Site?type=design&node-id=0%3A1&mode=design&t=C5BGEcn5VRaB40bb-1",
+          link1: "https://www.figma.com/file/xQxSldEfPiW6T3klM8S1Y3/Odin-UI---Site?type=design&node-id=0%3A1&mode=design&t=vcCQSml4wIJakTrk-1",
         },
       ],
     },
