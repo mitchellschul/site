@@ -28,8 +28,8 @@ const Contact = () => {
 
 
   return (
-    <div id="contact-section" className=" relative md:mt-40">
-      <section className="text-gray-700 body-font relative bg-accent-blue">
+    <div id="contact-section" className="  relative md:mt-40">
+      <section className="text-white body-font relative h-screen bg-accent-blue">
         < div className="container px-5 py-24 mx-auto" >
           <div className="flex flex-col text-center w-full mb-12">
             <h1 className="sm:text-3xl text-2xl font-medium title-font mb-4 text-white">
@@ -86,7 +86,7 @@ const Contact = () => {
                 </div>
               </div>
               <div className="p-2 w-full ">
-                <button className="cursor-pointer flex mx-auto text-accent-blue bg-white hover:bg-light-gray cursor- border-0 py-2 px-8 focus:outline-none hover:bg-indigo-600 rounded text-lg" type="submit">
+                <button className="cursor-pointer rounded text-lg border-2 flex mx-auto text-white bg-accent-blue hover:bg-white hover:text-accent-blue duration-200 ease-in-out py-2 px-8 " type="submit">
                   Send Message
                 </button>
               </div>

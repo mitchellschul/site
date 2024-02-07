@@ -88,8 +88,9 @@ const Projects = () => {
           title: "Michigan State Accafellas",
           desc: "A summary of my works acting as the Web Master and Social Media Manager for the Michigan State Accafellas.",
           cat: "UX",
-          link1: "www.google.com",
-          link2: "www.google.com",
+          link1Title: "Accafellas Portfolio",
+          link1: "",
+          link2: "",
         },
         {
           id: 2,
@@ -97,8 +98,9 @@ const Projects = () => {
           title: "East Lansing Film Festival",
           desc: "BBBBThis will be a brief description of the project that is being displayed. Kept just to one or two sentences",
           cat: "UX",
+          link1Title: "Final Report",
           link1: "www.google.com",
-          link2: "www.google.com",
+
         },
       ],
     },
@@ -154,6 +156,7 @@ const Projects = () => {
                     title={project.title}
                     desc={project.desc}
                     cat={project.cat}
+                    link1Title={project.link1Title}
                     link1={project.link1}
                     link2={project.link2}
                   />
