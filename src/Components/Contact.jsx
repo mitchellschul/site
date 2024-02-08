@@ -50,7 +50,7 @@ const Contact = () => {
                     type="text"
                     id="name"
                     name="user_name"
-                    className="w-full bg-gray-100 rounded border border-white focus:border-indigo-500 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
+                    className="w-full bg-gray-100 rounded border border-white focus:border-indigo-500 text-base outline-none text-black py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
                   />
                 </div>
               </div>
@@ -66,7 +66,7 @@ const Contact = () => {
                     type="email"
                     id="email"
                     name="user_email"
-                    className="w-full bg-gray-100 rounded border border-white focus:border-indigo-500 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
+                    className="w-full bg-gray-100 rounded border border-white focus:border-indigo-500 text-base outline-none text-black py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
                   />
                 </div>
               </div>
@@ -81,7 +81,7 @@ const Contact = () => {
                   <textarea
                     id="message"
                     name="message"
-                    className="w-full bg-gray-100 rounded border border-white focus:border-indigo-500 h-32 text-base outline-none text-gray-700 py-1 px-3 resize-none leading-6 transition-colors duration-200 ease-in-out"
+                    className="w-full bg-gray-100 rounded border border-white focus:border-indigo-500 h-32 text-base outline-none text-black py-1 px-3 resize-none leading-6 transition-colors duration-200 ease-in-out"
                   ></textarea>
                 </div>
               </div>
