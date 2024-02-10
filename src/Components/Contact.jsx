@@ -49,7 +49,7 @@ const Contact = () => {
                   <input
                     type="text"
                     id="name"
-                    name="user_name"
+                    name="from_name"
                     className="w-full bg-gray-100 rounded border border-white focus:border-indigo-500 text-base outline-none text-black py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
                   />
                 </div>
