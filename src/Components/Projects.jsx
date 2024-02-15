@@ -10,6 +10,9 @@ import ITRosterCover from "../assets/images/itroster.png";
 import odenThumbnail from "../assets/images/odenThumb.jpg";
 import sucessTrackThumbnail from "../assets/images/sucessTrackThumb.png";
 import fellasThumb from "../assets/images/fellas.png";
+import neosaasThumb from "../assets/images/neosass.png";
+import laymansThumbnail from "../assets/images/laymans.png";
+import elffThumb from "../assets/images/elff.png";
 
 
 const Projects = () => {
@@ -26,23 +29,34 @@ const Projects = () => {
       id: 1,
       title: "Web / Mobile Dev",
       projects: [
+        // {
+        //   id: 1,
+        //   img: placeholderImg,
+        //   title: "BlueBag",
+        //   desc: "A portal to organize your cash, create goals",
+        //   cat: "web",
+        //   link1: "www.google.com",
+        //   link2: "www.google.com",
+        // },
         {
           id: 1,
-          img: placeholderImg,
-          title: "BlueBag",
-          desc: "A portal to organize your cash, create goals",
-          cat: "web",
-          link1: "www.google.com",
-          link2: "www.google.com",
-        },
-        {
-          id: 2,
-          img: placeholderImg,
+          img: neosaasThumb,
           title: "NeoSass",
           desc: "Using AI to revolutionize automation for businesses. AIDR, and AI-Rep, our flagship products aim to help you automate the aspects of your business previously thought to be manual work.",
           cat: "web",
-          link1: "www.google.com",
-          link2: "www.google.com",
+          link1Title: "NeoSass.net",
+          link1: "https://www.neosaas.net/",
+          // link2: "www.google.com",
+        },
+        {
+          id: 2,
+          img: laymansThumbnail,
+          title: "Layman's Mixology",
+          desc: "A web app built for home bartenders, and creationists. Started as a Hackathon project. Work In Progress. ",
+          cat: "web",
+          // link1Title: "NeoSass.net",
+          // link1: "https://www.neosaas.net/",
+          // link2: "www.google.com",
         },
       ],
     },
@@ -56,7 +70,8 @@ const Projects = () => {
           title: "IT Roster",
           desc: "Create a user-friendly solution to view and manage the members in UWM's cross-functional IT Organization.",
           cat: "UX",
-          link1: "www.google.com",
+          link1Title: "IT Roster",
+          link1: "https://www.figma.com/file/IWid4oP8TRLCE73LV5Tk3B/IT-Roster---site?type=design&node-id=1%3A7007&mode=design&t=ppcUuHI6TBc5TQxz-1",
 
         },
         {
@@ -65,7 +80,8 @@ const Projects = () => {
           title: "Success Track Redesign",
           desc: "To design a smarter system or series of questions to help brokers choose the correct class to attend.",
           cat: "UX",
-          link1: "www.google.com",
+          link1Title: "Success Track",
+          link1: "https://www.figma.com/file/1uOK8xxFOxn48rwqBWjrPF/Success-Track---Site?type=design&node-id=0%3A1&mode=design&t=KA78tIwoI3aVHgHS-1",
 
         },
         {
@@ -74,6 +90,7 @@ const Projects = () => {
           title: "Oden Classroom",
           desc: "To provide a reliable, user-friendly, and efficient coding platform tailored specifically for computer science courses.",
           cat: "UX",
+          link1Title: "Oden Classroom",
           link1: "https://www.figma.com/file/xQxSldEfPiW6T3klM8S1Y3/Odin-UI---Site?type=design&node-id=0%3A1&mode=design&t=vcCQSml4wIJakTrk-1",
         },
       ],
@@ -86,20 +103,20 @@ const Projects = () => {
           id: 1,
           img: fellasThumb,
           title: "Michigan State Accafellas",
-          desc: "A summary of my works acting as the Web Master and Social Media Manager for the Michigan State Accafellas.",
+          desc: "Acted as the WebMaster for the Michigan State University Accafellas.",
           cat: "UX",
-          link1Title: "Accafellas Portfolio",
-          link1: "",
+          link1Title: "The Accafellas",
+          link1: "https://ww.msufellas.com",
           link2: "",
         },
         {
           id: 2,
-          img: placeholderImg,
+          img: elffThumb,
           title: "East Lansing Film Festival",
-          desc: "BBBBThis will be a brief description of the project that is being displayed. Kept just to one or two sentences",
+          desc: "A report from my time managing the social media for the East Lansing Film Festival",
           cat: "UX",
           link1Title: "Final Report",
-          link1: "www.google.com",
+          link1: "EastLansingFilmFestival.pdf",
 
         },
       ],
