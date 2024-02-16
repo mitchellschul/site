@@ -13,7 +13,7 @@ const Hero = () => {
   });
 
   return (
-    <div className="w-full mx-12 mt-10 md:mt-40 lg:mx-auto max-w-screen-lg  flex-col md:flex-row flex justify-between items-center ">
+    <div className="max-wfull mx-12 mt-10 md:mt-40 lg:mx-auto max-w-screen-lg  flex-col md:flex-row flex justify-between items-center ">
       <div className="flex flex-col items-start font-roboto gap-2 mr-10 balance">
         <div className="text-lg">Hi, my name is</div>
         <div className="text-5xl">Mitchell Schuldinger</div>

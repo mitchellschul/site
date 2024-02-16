@@ -14,11 +14,11 @@ const Footer = () => {
       icon: <FaGithub size={30} />,
       href: "https://github.com/mitchellschul",
     },
-    {
-      id: 3,
-      icon: <FaInstagram size={30} />,
-      href: "https://www.instagram.com/mitchell_schul/",
-    },
+    // {
+    //   id: 3,
+    //   icon: <FaInstagram size={30} />,
+    //   href: "https://www.instagram.com/mitchell_schul/",
+    // },
   ];
 
   return (
@@ -47,7 +47,7 @@ const Footer = () => {
             <a
               key={id}
               href={href}
-              className="flex mx-5 text-tanly hover:scale-125 duration-200 hover:text-white"
+              className="flex mx-5 text-white hover:text-gray hover:scale-125 duration-300 "
               target="_blank"
               rel="noreferrer"
             >

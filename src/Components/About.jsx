@@ -36,7 +36,7 @@ const About = () => {
             />
           </div>
         </div>
-        <div className="w-[90%] flex-wrap mt-40 mx-2 md:w-[50%] md:mt-0">
+        <div className="w-[90%] flex-wrap mt-48 mx-2 md:w-[50%] md:mt-0">
           I am in my fourth, and final, year at Michigan State University
           studying information science with a focus in human-centered
           technology, with a minor in computer science. I have always had a

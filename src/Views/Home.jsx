@@ -11,7 +11,7 @@ import Footer from "../Components/Footer";
 
 const Home = () => {
   return (
-    <div className="mt-4 flex flex-col lg:mx-auto">
+    <div className="mt-4 flex flex-col lg:mx-auto justify-evenly">
       {/* <Construction /> */}
       <NavBar />
       <Hero />

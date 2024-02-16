@@ -124,7 +124,7 @@ const Projects = () => {
   ];
 
   return (
-    <div id='projects-section' className="my-12 h-screen maw-w-screen-lg lg:mx-auto md:mt-40 flex flex-col relative ">
+    <div id='projects-section' className="my-12 h-screen maw-w-screen-lg lg:mx-auto md:mt-40 flex flex-col relative mb-40">
       <div className="text-xl font-bold">
         {/* <div className="w-10 h-2 bg-accent-blue relative right-2 bottom-3 z-1"></div> */}
       </div>

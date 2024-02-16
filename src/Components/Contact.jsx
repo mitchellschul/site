@@ -36,7 +36,7 @@ const Contact = () => {
               Contact Me
             </h1>
             <p className="lg:w-2/3 mx-auto leading-relaxed text-base text-white">
-              Whether it's to just say hi, or for a professional inquery, please fill out the form below
+              Whether it's to just say hi, or to inquire for a future project, please fill out the form below
             </p>
           </div>
           <form className="lg:w-1/2 md:w-2/3 mx-auto" ref={form} onSubmit={sendEmail}>
@@ -65,7 +65,7 @@ const Contact = () => {
                   <input
                     type="email"
                     id="email"
-                    name="user_email"
+                    name="from_email"
                     className="w-full bg-gray-100 rounded border border-white focus:border-indigo-500 text-base outline-none text-black py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
                   />
                 </div>
