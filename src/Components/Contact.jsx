@@ -28,7 +28,7 @@ const Contact = () => {
 
 
   return (
-    <div id="contact-section" className="  relative md:mt-40">
+    <div id="contact-section" className="  relative mt-40">
       <section className="text-white body-font relative h-screen bg-accent-blue">
         < div className="container px-5 py-24 mx-auto" >
           <div className="flex flex-col text-center w-full mb-12">
@@ -51,6 +51,7 @@ const Contact = () => {
                     id="name"
                     name="from_name"
                     className="w-full bg-gray-100 rounded border border-white focus:border-indigo-500 text-base outline-none text-black py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
+                    required
                   />
                 </div>
               </div>
@@ -65,8 +66,9 @@ const Contact = () => {
                   <input
                     type="email"
                     id="email"
-                    name="from_email"
+                    name="from_name"
                     className="w-full bg-gray-100 rounded border border-white focus:border-indigo-500 text-base outline-none text-black py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
+                    required
                   />
                 </div>
               </div>
@@ -82,6 +84,7 @@ const Contact = () => {
                     id="message"
                     name="message"
                     className="w-full bg-gray-100 rounded border border-white focus:border-indigo-500 h-32 text-base outline-none text-black py-1 px-3 resize-none leading-6 transition-colors duration-200 ease-in-out"
+                    required
                   ></textarea>
                 </div>
               </div>

@@ -17,7 +17,7 @@ const Hero = () => {
       <div className="flex flex-col items-start font-roboto gap-2 mr-10 balance">
         <div className="text-lg">Hi, my name is</div>
         <div className="text-5xl">Mitchell Schuldinger</div>
-        <div className="text-3xl">
+        <div className="text-2xl">
           <span className="text-gray">I am a</span>
           <span className="text-accent-blue font-bold pl-2">{text}</span>
           <Cursor />
