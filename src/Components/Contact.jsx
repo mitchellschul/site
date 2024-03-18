@@ -24,6 +24,9 @@ const Contact = () => {
     document.getElementById('name').value = ""
     document.getElementById('email').value = ""
     document.getElementById('message').value = ""
+    document.getElementById('button-text').innerText = "Message Sent"
+    document.getElementById('button-text').style.backgroundColor = 'white'
+    document.getElementById('button-text').style.color = '#0021F3'
   };
 
 
@@ -89,7 +92,7 @@ const Contact = () => {
                 </div>
               </div>
               <div className="p-2 w-full ">
-                <button className="cursor-pointer rounded text-lg border-2 flex mx-auto text-white bg-accent-blue hover:bg-white hover:text-accent-blue duration-200 ease-in-out py-2 px-8 " type="submit">
+                <button className="cursor-pointer rounded text-lg border-2 flex mx-auto text-white bg-accent-blue hover:bg-white hover:text-accent-blue duration-200 ease-in-out py-2 px-8 " type="submit" id='button-text'>
                   Send Message
                 </button>
               </div>

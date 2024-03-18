@@ -22,11 +22,11 @@ const ProjectCards = (props) => {
   }
   return (
     <div className="flex flex-col items-center m-2">
-      <img
+      <a href={props.link1} target="_blank"><img
         src={props.cover}
         alt={props.title}
         className="w-[310px] h-[200px] m-0 transition duration-300 ease-in-out hover:opacity-80 fit-cover"
-      />
+      /></a>
 
       <div className="text-lg font-bold pt-0 my-2">{props.title}</div>
       <div className="text-center w-[320px]">{props.desc}</div>
