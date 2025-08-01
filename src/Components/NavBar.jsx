@@ -40,7 +40,7 @@ const NavBar = () => {
           </li>
           <li className="relative flex justify-center items-center  rounded border-2 border-accent-blue px-4 hover:cursor-pointer hover:bg-accent-blue hover:text-white duration-200 ease-in-out">
             <a
-              href="resume-mitchell-schuldinger.pdf"
+              href="resume.pdf"
               target="_blank"
             >
               Resume
