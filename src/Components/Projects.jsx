@@ -13,6 +13,7 @@ import fellasThumb from "../assets/images/fellas.png";
 import neosaasThumb from "../assets/images/neosass.png";
 import laymansThumbnail from "../assets/images/laymans.png";
 import elffThumb from "../assets/images/elff.png";
+import servdThumbnail from "../assets/images/servdlogo.png";
 
 
 const Projects = () => {
@@ -56,6 +57,16 @@ const Projects = () => {
           cat: "web",
           link1Title: "GitHub",
           link1: "https://github.com/mitchellschul/laymans-mixology",
+          // link2: "www.google.com",
+        },
+        {
+          id: 3,
+          img: servdThumbnail,
+          title: "Serv'D",
+          desc: "Connects job seekers and employers in the hospitality industry with a seamless, swipe-to-match experience.",
+          cat: "web",
+          link1Title: "Serv'D",
+          link1: "https://www.neosaas.net/servd",
           // link2: "www.google.com",
         },
       ],
