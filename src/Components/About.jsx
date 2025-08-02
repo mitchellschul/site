@@ -37,17 +37,15 @@ const About = () => {
           </div>
         </div>
         <div className="w-[90%] flex-wrap mt-48 mx-2 md:w-[50%] md:mt-0">
-          I am in my fourth, and final, year at Michigan State University
-          studying information science with a focus in human-centered
-          technology, with a minor in computer science. I have always had a
-          passion for learning new technologies and how they can help improve
-          the daily life. My main interests include web and mobile design,
-          graphic design, and data visualization.
+          I recently graduated from Michigan State University with a degree in Information Science and a minor in Computer Science. I’ve always been fascinated by how technology can enhance everyday experiences, especially when it means taking something people already rely on and making it faster, easier, or more intuitive. Whether I am building out interfaces, designing data visualizations, or managing end to end technical projects, I aim to create solutions that are both human centered and forward thinking.
           <br />
           <br />
-          Outside of the computer, I am a member, and website / social media manager of the
-          Michigan State Accafellas. I love to travel, cook, and collect unique
-          watches.
+          A big part of my passion lies in helping people understand and engage with the tools around them. I enjoy breaking down technical concepts, uncovering hidden inefficiencies, and finding creative ways to improve the systems we often take for granted. This mindset has shaped my work across design, development, and technical support and continues to influence how I approach every challenge.
+          <br />
+          <br />
+          Outside of tech, I love being outdoors and spend a lot of time hiking and exploring new places. I also enjoy experimenting in the kitchen, traveling whenever I can, and collecting unique watches, especially the ones with stories behind them.
+
+
         </div>
       </div>
 
